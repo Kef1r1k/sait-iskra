@@ -1,0 +1,208 @@
+.topmenu{
+  width: 100%;
+  height: 10vh;
+  background: black;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10;
+}
+ .home{
+   width: 7vh;
+   height: 7vh;
+   position: relative;
+   left: 3.5vw;
+   top: 1.5vh;
+   background-image: url('../img/home.svg');
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+.sidemenu{
+  width: 5vh;
+  height: 5vh;
+  background-image: url('../img/sidemenu.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: calc(100% - 90px);
+  top: -5vh;;
+}
+.background{
+  background-color: #FF6100;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+}
+.screen1{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  overflow: hidden;
+  z-index: 2;
+}
+.star1{
+  width: 100%;
+  height: 70%;
+  background-image: url('../img/staryellow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 31%;
+}
+.line {
+  width: 100%;
+  height: 18vh;
+  position: absolute;
+}
+.iskra{
+  background-image: url('../img/iskraline.svg');
+  background-clip: border-box;
+  background-repeat: repeat-x;
+  top: 10vh;
+  animation: go 8s linear infinite;
+}
+
+@keyframes go {
+0% {background-position: 0% 50%;}
+100% {background-position: -100% 50%;}
+}
+
+.skobki1 {
+  display: grid;
+  height: 85vh;
+  width: 92vw;
+  position: absolute;
+  left: 3.5vw;
+  top: 20vh;
+  z-index: 5;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 35px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  ". . . re2 . . re5 ."
+     "re1 . . re2 . re3 . ."
+     "re1 . . re2 . re3 . re4"
+     "re1 . . . . re3 . re4"
+     "re1 . . . . . . re4";
+}
+
+.re1 { grid-area: re1;
+  background: url('../img/g1.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.op1{
+    justify-content: center;
+  grid-area: re1;
+  animation: miganie 3s linear infinite;
+}
+.op12{
+  grid-area: re1;
+  position: relative;
+  top:2vh;
+  animation: miganie 3s linear .2s infinite;
+}
+@keyframes miganie {
+0%{ opacity: 0;}
+40%{opacity: 0;}
+60%{ opacity: 1;}
+90%{opacity: 0;}
+100%{opacity: 0;}
+}
+.re2 { grid-area: re2;
+  background: url('../img/g2.svg');
+  background-repeat: no-repeat;
+  background-position: 0 85px;
+  align-content: center;}
+.op2{
+  justify-content: center;
+  grid-area: re2;
+  position: relative;
+  top: 25vh;
+  align-content: center;
+  animation: miganie 3s linear .5s infinite;
+}
+.op3{
+  grid-area: re2;
+  position: relative;
+  top: 26vh;
+  animation: miganie 3s linear .7s infinite;
+}
+.re3 { grid-area: re3;
+  background: url('../img/g3.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.op4{
+  grid-area: re3;
+  position: relative;
+  top:8vh;
+  animation: miganie 3s linear .2s infinite;
+}
+.op5{
+  grid-area: re3;
+  position: relative;
+  top:-8vh;
+  animation: miganie 3s linear .5s infinite;
+}
+
+.re4 { grid-area: re4;
+  background: url('../img/g4.svg');
+  background-repeat: no-repeat;
+  background-position: left;}
+
+.op6{
+   grid-area: re4;
+  animation: miganie 3s linear .5s infinite;
+}
+.op7{
+   grid-area: re4;
+  position: relative;
+  top: .5vh;
+  animation: miganie 3s linear .7s infinite;
+}
+.op8{
+   grid-area: re4;
+   position: relative;
+   top: 22.5vh;
+   animation: miganie 3s linear 1s infinite;
+}
+.op9{
+  grid-area: re4;
+  position: relative;
+  top: 23vh;
+  animation: miganie 3s linear 1.2s infinite;
+}
+.re5 { grid-area: re5;
+  background: url('../img/g5.svg');
+  background-repeat: no-repeat;
+  background-position: left;}
+  .screen2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 100vh;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .star2{
+    width: 100%;
+    height: 70%;
+    background-image: url('../img/starorange.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  .info{
+    background-image: url('../img/infoline.svg');
+    background-clip: border-box;
+    background-repeat: repeat-x;
+    animation: go 8s linear infinite;
+    z-index: 3;
+  }
