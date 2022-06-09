@@ -1,1 +1,6 @@
-//write here your js
+$(function(){
+	$(".home").click(function(){
+		$('html, body').animate({scrollTop: 0}, 600);
+		return false;
+	});
+});
