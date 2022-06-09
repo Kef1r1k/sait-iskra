@@ -1,3 +1,10 @@
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: white;
+}
 .topmenu{
   width: 100%;
   height: 10vh;
@@ -45,7 +52,7 @@
 }
 .star1{
   width: 100%;
-  height: 70%;
+  height: 69%;
   background-image: url('../img/staryellow.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +62,7 @@
 }
 .line {
   width: 100%;
-  height: 18vh;
+  height: 17vh;
   position: absolute;
 }
 .iskra{
@@ -63,12 +70,12 @@
   background-clip: border-box;
   background-repeat: repeat-x;
   top: 10vh;
-  animation: go 8s linear infinite;
+  animation: go 10s linear infinite;
 }
 
 @keyframes go {
 0% {background-position: 0% 50%;}
-100% {background-position: -100% 50%;}
+100% {background-position: -100% 50%; }
 }
 
 .skobki1 {
@@ -79,8 +86,8 @@
   left: 3.5vw;
   top: 20vh;
   z-index: 5;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 0.8fr 1fr 1.2fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 35px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -181,18 +188,19 @@
 .re5 { grid-area: re5;
   background: url('../img/g5.svg');
   background-repeat: no-repeat;
-  background-position: left;}
+  background-position: left bottom;}
+
   .screen2{
     position: absolute;
     width: 100%;
     height: 100vh;
     top: 100vh;
-    overflow: hidden;
+    /* overflow: hidden;   */
     z-index: 2;
   }
   .star2{
     width: 100%;
-    height: 70%;
+    height: 69%;
     background-image: url('../img/starorange.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -203,6 +211,247 @@
     background-image: url('../img/infoline.svg');
     background-clip: border-box;
     background-repeat: repeat-x;
-    animation: go 8s linear infinite;
+    animation: go 10s linear infinite;
     z-index: 3;
   }
+
+  .skobki2 {  display: grid;
+    height: 99vh;
+    width: 92vw;
+    position: absolute;
+    left: 3.5vw;
+    top: 0vh;
+    z-index: 5;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . . . . . ra4 ."
+    "ra1 . . . . . ra4 ra5"
+    "ra1 . . . . ra3 . ra5"
+    ". . . . ra2 ra3 . ra5"
+    ". . . . ra2 . . .";
+  }
+
+  .ra1 { grid-area: ra1;
+    background: url('../img/g5.svg');
+    background-repeat: no-repeat;
+    background-position: left 20%;
+   }
+
+  .ra2 { grid-area: ra2;
+    background: url('../img/gr1.svg');
+    background-repeat: no-repeat;
+    background-position: left 30%;}
+
+  .ap1{
+     grid-area: ra2;
+     position: relative;
+     top: 23vh;
+     animation: miganie 3s linear .7s infinite;
+  }
+
+  .ra3 { grid-area: ra3;
+    background: url('../img/g4.svg');
+    background-repeat: no-repeat;
+    background-position: left top;}
+
+  .ap2{
+     grid-area: ra3;
+     position: relative;
+     top: 12.5vh;
+     animation: miganie 3s linear 1s infinite;
+  }
+  .ap3{
+    grid-area: ra3;
+    position: relative;
+    top: 13vh;
+    animation: miganie 3s linear 1.2s infinite;
+  }
+  .ra5 { grid-area: ra5;
+    background: url('../img/g3.svg');
+    background-repeat: no-repeat;
+    background-position: left 26%;
+  }
+  .ap4{
+     grid-area: ra5;
+     position: relative;
+     top: 30vh;
+     animation: miganie 3s linear .3s infinite;
+  }
+  .ap5{
+    grid-area: ra5;
+    position: relative;
+    top: 30vh;
+    animation: miganie 3s linear .5s infinite;
+  }
+
+
+  .ra4 { grid-area: ra4;
+    background: url('../img/gr2.svg');
+    background-repeat: no-repeat;
+    background-position: left 65%;
+    top: 10vh;
+  }
+
+  .text{
+    font-size: 24px;
+    position: relative;
+    left: 3.5vw;
+  }
+  .s1{
+    width: 22em;
+    height: 6.3em;
+  }
+.normal{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.button{
+  font-size: 24px;
+  width: 9em;
+  height: 3em;
+  color: white;
+  background-color: black;
+  position: relative;
+  left: 3.5vw;
+  top: 1.65em;
+  z-index: 10;
+  text-align: center;
+  vertical-align:middle;
+  display:table-cell;
+}
+.button:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 1);
+  transition: .5s;
+}
+.screen3{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 214vh;
+  overflow: hidden;
+  z-index: 2;
+}
+.star3{
+  width: 100%;
+  height: 69%;
+  background-image: url('../img/starblue.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.afisha{
+  background-image: url('../img/afishaline.svg');
+  background-clip: border-box;
+  background-repeat: repeat-x;
+  animation: go 10s linear infinite;
+  z-index: 3;
+}
+.block{
+  position: relative;
+  top: -18vh;
+}
+
+.s2{
+  width: 22em;
+  height: 6.3em;
+}
+.screen4{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 314vh;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.gr{
+  color: #C4C4C4;
+  left: 0;
+  margin-left: 20px;
+}
+
+.head{
+  font-size: 32px;
+  position: relative;
+  margin-left: 20px;
+}
+.sliders{
+  text-decoration: none;
+}
+.line1, .line2{
+  font-size: 24px;
+  height: 6.25em;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  transform: translate(30px, 0px);
+  animation: linemove 9s infinite 0s linear;
+}
+.line2{
+  top:6.25em;
+  animation: linemove 12s infinite -.5s linear;
+}
+@keyframes linemove {
+  0%{ left: 0px;}
+  100%{left: -1200px;}
+}
+.rectengles{
+  width:138px;
+  height: 150px;
+}
+.rec{
+  display: inline-block;
+  height: 150px;
+  width: 21px;
+  background-color: black;
+  position: relative;
+  margin-left: 20px;
+}
+
+
+.card{
+  font-size: 24px;
+  width: 16em;
+  height: 6.25em;
+  background-color: white;
+  margin-left: 20px;
+}
+.card:hover{
+  background-color: black;
+  color: white;
+}
+.line1:hover{
+    animation-play-state: paused;
+}
+.line2:hover{
+    animation-play-state: paused;
+}
+.big{
+width: 17em;
+}
+.image{
+  width: 127px;
+  display: inline-block;
+}
+.headline{
+  position: absolute;
+  top:20px;
+display: inline-block;
+}
+.description{
+  position: absolute;
+  top:2.7em;
+  width: 10.5em;
+  height: 3.5em;
+  display: inline-block;
+}
