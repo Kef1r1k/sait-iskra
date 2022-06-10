@@ -4,3 +4,7 @@ $(function(){
 		return false;
 	});
 });
+
+$(function(){
+$( ".tickets" ).draggable({ axis: "x" });
+});
