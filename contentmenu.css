@@ -1,3 +1,10 @@
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: white;
+}
 .main{
   background-color: #FF6100;
   height: 100vh;
