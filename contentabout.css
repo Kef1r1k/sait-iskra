@@ -3,6 +3,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
+
 }
 a {
   text-decoration:none;
@@ -13,7 +14,7 @@ a {
   background: black;
   position: fixed;
   overflow: hidden;
-  z-index: 10;
+  z-index: 15;
 }
  .home{
    width: 7vh;
@@ -31,62 +32,54 @@ a {
 }
 
 .screen{
-  width: 90vw;
+  width: 100%;
   height:90vh;
   position: absolute;
   top: 10vh;
+  overflow: hidden;
 }
-.ticket{
-  width: 90vw;
-  height:90vh;
-  display:none;
-}
-.active{
-  display: inline-block;
-  z-index: 10;
-}
-.image{
-  width: 50vw;
-  height: 90vh;
+.line{
+  height: 350px;
+  width: 230%;
+  overflow: hidden;
   position: relative;
-  left: 0;
-  top:0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  animation: go 15s linear infinite;
+}
+@keyframes go {
+  0%{ left: 0px;}
+  100%{left: -1600px;}
+}
+.rec{
+  height: 350px;
+  width: 28px;
+  display: inline-block;
+  background-color: black;
+  position: relative;
+  margin-left: 46px;
+}
+.none{
+  margin-left: 0;
 }
 .block{
-  position: absolute;
-  top: 20vh;
-  left:56vw ;
+  font-size: 24px;
+  position: relative;
+  top: 7vh;
+  left: 3.5vw;
+  color: black;
+  width: 20em;
 }
 .text{
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 26px;
-}
-.head{
-  font-size: 32px;
-  line-height: 34px;
-}
-.headline{
-  font-size: 32px;
-  width: 9em;
-  height:2.5em;
-  position:relative;
-}
-.description{
-  font-size: 24px;
-  width: 14em;
-  height:5.9em;
-  position:relative;
-  top: 1em;
-}
-.price{
-  font-size: 32px;
-  position: relative;
-  top:2em;
-}
+  line-height: 31px;
 
+}
 .button{
   font-size: 24px;
   width: 9em;
@@ -94,7 +87,8 @@ a {
   color: white;
   background-color: black;
   position: relative;
-  top: 5em;
+  left: 3.5vw;
+  top: 4em;
   z-index: 10;
   text-align: center;
   vertical-align:middle;
@@ -107,8 +101,63 @@ a {
   transition: .5s;
 }
 
+.p1{
+  width:443px;
+  height: 294px;
+}
+.p2{
+  width:302px;
+  height: 350px;
+}
+.p3{
+  width:453px;
+  height: 302px;
+}
+.p4{
+  width:281px;
+  height: 351px;
+}
+.p5{
+  width:453px;
+  height: 302px;
+}
+
+.screen2{
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  top: 100vh;
+  overflow: hidden;
+  background-color: #5EB6CA;
+  display: none;
+}
+.rect{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.s1{
+  position: relative;
+  bottom: 43vh;
+  left: 73vw;
+  color: black;
+  font-size: 24px;
+  width: 15em;
+  position: relative;
+}
+.map{
+  width: 1004px;
+  height: 591px;
+  position: relative;
+}
+.head{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+
 .footer{
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   background-color: black;
   position: absolute;
@@ -119,7 +168,7 @@ a {
   height: 95px;
   position: relative;
   left: 3.5vw;
-  top: 5.5vh;
+  top: 7.5vh;
 }
 .cont{
 font-size: 24px;
@@ -131,7 +180,7 @@ position: absolute;
 font-size: 24px;
 width:12em;
 left: 38vw;
-top: 4.5vh;
+top: 6.5vh;
 display: inline-block;
 }
 .author{
@@ -139,24 +188,6 @@ position: absolute;
 font-size: 24px;
 width:12em;
 left: 74.5vw;
-top: 4.5vh;
+top: 6.5vh;
 display: inline-block;
-}
-.knopka{
-  width:37px;
-  height: 63px;
-  background-image: url('./img/arrow.svg');
-  cursor: pointer;
-}
-.next{
-  position: absolute;
-  top: 45vh;
-  left: 93vw;
-}
-.prev{
-  position: absolute;
-  top: 45vh;
-  left: 3.5vw;
-  opacity: 50%;
-  transform: rotate(180deg);
 }

@@ -14,7 +14,7 @@ a {
   background: black;
   position: fixed;
   overflow: hidden;
-  z-index: 10;
+  z-index: 15;
 }
  .home{
    width: 7vh;
