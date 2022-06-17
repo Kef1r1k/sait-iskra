@@ -3,7 +3,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
-
 }
 a {
   text-decoration:none;
@@ -51,7 +50,7 @@ a {
 }
 @keyframes go {
   0%{ left: 0px;}
-  100%{left: -1600px;}
+  100%{left: -1500px; transition: all  ease 0s;}
 }
 .rec{
   height: 350px;
@@ -152,7 +151,7 @@ a {
 }
 .head{
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 

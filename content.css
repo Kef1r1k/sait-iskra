@@ -56,23 +56,86 @@ a {
   position: relative;
   top: 31%;
 }
-.line {
+/* .line {
   width: 100%;
   height: 17vh;
   position: absolute;
-}
-.iskra{
+} */
+/* .iskra{
   background-image: url('./img/iskraline.svg');
   background-clip: border-box;
   background-repeat: repeat-x;
   top: 10vh;
   animation: go 10s linear infinite;
+} */
+.line{
+  width:100vw;
+  position: absolute;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 5;
+}
+.top{
+    top: 10vh;
+}
+.iskraline, .infoline, .afishaline{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0;
+  animation: go 18s linear infinite;
+  animation-play-state: running;
+}
+
+/* .line1container, .line2container{
+  font-size: 24px;
+  height: 6.25em;
+  overflow: hidden;
+  margin-left: 0;
+} */
+.line1, .line2{
+  font-size: 24px;
+  height: 6.25em;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  transform: translate(30px, 0px);
+  animation: linemove 9s infinite 0s linear;
+}
+.line2{
+  top:6.25em;
+  animation: linemove 12s infinite -.5s linear;
+}
+@keyframes linemove {
+  0%{ left: 0px;}
+  100%{left: -1200px;}
 }
 
 @keyframes go {
-0% {background-position: 0% 50%;}
-100% {background-position: -100% 50%; }
+0% {transform: translateX(0);}
+100% {transform: translateX(-100%); }
 }
+/* .line1, .line2{
+  font-size: 24px;
+  height: 6.25em;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  white-space: normal;
+  animation: go 15s infinite 0s linear;
+  animation-play-state: running;
+}
+.line2{
+  animation: go 18s infinite 0s linear;
+  animation-play-state: running;
+}
+.subcontainer1, .subcontainer2{
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  width:100%;
+} */
+
 
 .skobki1 {
   display: grid;
@@ -191,7 +254,7 @@ a {
     width: 100%;
     height: 100vh;
     top: 100vh;
-    /* overflow: hidden;   */
+    overflow: hidden;
     z-index: 2;
   }
   .star2{
@@ -203,13 +266,13 @@ a {
     background-size: contain;
     position: relative;
   }
-  .info{
+  /* .info{
     background-image: url('./img/infoline.svg');
     background-clip: border-box;
     background-repeat: repeat-x;
     animation: go 10s linear infinite;
     z-index: 3;
-  }
+  } */
 
   .skobki2 {  display: grid;
     height: 99vh;
@@ -347,13 +410,13 @@ a {
   background-size: contain;
   position: relative;
 }
-.afisha{
+/* .afisha{
   background-image: url('./img/afishaline.svg');
   background-clip: border-box;
   background-repeat: repeat-x;
   animation: go 10s linear infinite;
   z-index: 3;
-}
+} */
 .block{
   position: relative;
   top: -18vh;
@@ -389,23 +452,7 @@ a {
   top: 5vh;
   text-decoration: none;
 }
-.line1, .line2{
-  font-size: 24px;
-  height: 6.25em;
-  position: absolute;
-  overflow: hidden;
-  display: flex;
-  transform: translate(30px, 0px);
-  animation: linemove 9s infinite 0s linear;
-}
-.line2{
-  top:6.25em;
-  animation: linemove 12s infinite -.5s linear;
-}
-@keyframes linemove {
-  0%{ left: 0px;}
-  100%{left: -1200px;}
-}
+
 .rectengles{
   width:138px;
   height: 150px;
@@ -426,6 +473,7 @@ a {
   height: 6.25em;
   background-color: white;
   margin-left: 20px;
+  color: black;
 }
 .card:hover{
   background-color: black;
