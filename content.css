@@ -99,16 +99,20 @@ a {
   position: absolute;
   overflow: hidden;
   display: flex;
-  transform: translate(30px, 0px);
-  animation: linemove 9s infinite 0s linear;
+
+  animation: linemove1 18s infinite 0s linear;
 }
 .line2{
   top:6.25em;
-  animation: linemove 12s infinite -.5s linear;
+  animation: linemove2 24s infinite -.5s linear;
 }
-@keyframes linemove {
+@keyframes linemove1 {
   0%{ left: 0px;}
-  100%{left: -1200px;}
+  100%{left: -2734px;}
+}
+@keyframes linemove2 {
+  0%{ left: 0px;}
+  100%{left: -2782px;}
 }
 
 @keyframes go {

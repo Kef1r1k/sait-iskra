@@ -18,7 +18,7 @@ $('.iskraline').clone().appendTo(".iskra");
 $('.infoline').clone().appendTo(".info");
 $('.afishaline').clone().appendTo(".afisha");
 $('.line1').clone().appendTo("#line1container");
-$('.subcontainer2').clone().appendTo("#line2container");
+$('.line2').clone().appendTo("#container2");
 });
 
 $(function(){
