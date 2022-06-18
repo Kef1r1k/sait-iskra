@@ -85,3 +85,30 @@ $(function(){
 
   });
 })
+$(function(){
+  $('.buy').click(function(){
+    $('.forma').show(250),
+    $('.background').show(200);
+  });
+});
+$(function(){
+  $('.cross').click(function(){
+    $('.forma').hide(200),
+    $('.background').hide(250);
+  });
+});
+
+$(function(){
+  $('.complete').click(function(){
+    $(function(){
+      $('.after').click(function(){
+        $('.forma_after').hide(100),
+        $('.background').hide(150);
+      });
+    });
+    $('.forma').hide(200),
+    $('.forma_after').show(250),
+    $('.forma_after').delay(3000).hide(200),
+    $('.background').delay(3000).hide(200);
+  });
+    });
