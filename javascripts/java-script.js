@@ -74,4 +74,14 @@ $(function (){
             });
         });
 
-$('.single-item').slick();
+$(function(){
+  $('.ticket_slider').slick({
+    slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      speed: 1000,
+      nextArrow: "<img src='img/arrow.svg' class='next' alt='2'>",
+
+  });
+})
