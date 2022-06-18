@@ -44,10 +44,11 @@ a {
   width: 43vw;
   height:23.5vh;
   z-index: 15;
-  background-color: white;
+  background-color: black;
   border: 2px solid #000000;
-  color: black;
+  color: white;
   position: fixed;
+  padding-top: 40px;
   top: calc( 50% - 12vh);
   left: calc( 50% - 21.5vw);
 }
@@ -187,6 +188,7 @@ label{
   height:90vh;
   display: block;
   overflow: hidden;
+  background-color: white;
   /* display:none; */
 }
 /* .active{
