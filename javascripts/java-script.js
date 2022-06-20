@@ -78,13 +78,14 @@ $(function(){
   $('.ticket_slider').slick({
     slidesToShow: 1,
       slidesToScroll: 1,
+      infinite: true,
       autoplay: true,
       autoplaySpeed: 4000,
       speed: 1000,
       nextArrow: "<img src='img/arrow.svg' class='next' alt='2'>",
 
   });
-})
+});
 $(function(){
   $('.buy').click(function(){
     $('.forma').show(250),
@@ -105,4 +106,16 @@ $(function(){
     $('.forma_after').delay(2900).hide(200),
     $('.background').delay(3200).hide(200);
   });
+    });
+
+    $(function(){
+      $('.slidergallery').slick({
+        slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          speed: 1000,
+        
+      });
     });
