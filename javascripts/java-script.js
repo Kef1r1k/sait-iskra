@@ -93,8 +93,23 @@ $(function(){
   });
 });
 $(function(){
+  $('.register').click(function(){
+    $('.question').show(250),
+    $('.background').show(200);
+  });
+});
+$(function(){
+  $('.continue').click(function(){
+    $('.question').hide(200),
+    $('.forma').show(250);
+});
+});
+
+
+$(function(){
   $('.cross').click(function(){
     $('.forma').hide(200),
+    $('.question').hide(200),
     $('.background').hide(250);
   });
 });
@@ -116,6 +131,5 @@ $(function(){
           autoplay: true,
           autoplaySpeed: 2500,
           speed: 1000,
-        
       });
     });
