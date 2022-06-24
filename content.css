@@ -175,13 +175,14 @@ align-items: flex-end;
 .re1 { grid-area: re1;
   background: url('./img/g1.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: left;
 }
 .op1{
     justify-content: center;
   grid-area: re1;
   animation: miganie 3s linear infinite;
+
 }
 .op12{
   grid-area: re1;
@@ -199,7 +200,7 @@ align-items: flex-end;
 .re2 { grid-area: re2;
   background: url('./img/g2.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: 0 85px;
   align-content: center;}
 .op2{
@@ -219,7 +220,7 @@ align-items: flex-end;
 .re3 { grid-area: re3;
   background: url('./img/g3.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: left;
 }
 .op4{
@@ -238,7 +239,7 @@ align-items: flex-end;
 .re4 { grid-area: re4;
   background: url('./img/g4.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: left;}
 
 .op6{
@@ -266,7 +267,7 @@ align-items: flex-end;
 .re5 { grid-area: re5;
   background: url('./img/g5.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: left bottom;}
 
   .screen2{
