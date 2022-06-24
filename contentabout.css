@@ -85,6 +85,7 @@ a {
   height: 3em;
   color: white;
   background-color: black;
+  border: 2px solid rgba(0, 0, 0, 1);
   position: relative;
   left: 3.5vw;
   top: 4em;
@@ -98,6 +99,7 @@ a {
   background-color: white;
   border: 2px solid rgba(0, 0, 0, 1);
   transition: .5s;
+  cursor: pointer;
 }
 
 .p1{

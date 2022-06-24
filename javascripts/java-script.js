@@ -14,11 +14,11 @@ $(document).ready(function() {
 });
 
 $(function(){
-$('.iskraline').clone().appendTo(".iskra");
-$('.infoline').clone().appendTo(".info");
-$('.afishaline').clone().appendTo(".afisha");
-$('.line1').clone().appendTo("#line1container");
-$('.line2').clone().appendTo("#container2");
+// $('.iskraline').clone().appendTo(".iskra");
+// $('.infoline').clone().appendTo(".info");
+// $('.afishaline').clone().appendTo(".afisha");
+// $('.line1').clone().appendTo("#line1container");
+// $('.line2').clone().appendTo("#container2");
 });
 
 $(function(){
@@ -28,9 +28,9 @@ $(function(){
 	});
 });
 
-$(function(){
-$( ".tickets" ).draggable({ axis: "x" });
-});
+// $(function(){
+// $( ".tickets" ).draggable({ axis: "x" });
+// });
 
 // $(function(){
 // $('.next').on('click', function(){
@@ -129,6 +129,18 @@ $(function(){
           slidesToScroll: 1,
           infinite: true,
           autoplay: true,
+          autoplaySpeed: 2500,
+          speed: 1000,
+      });
+    });
+    $(function(){
+      $('.ticketgallery').slick({
+        slidesToShow: 1.08,
+        centerMode: true,
+        dots: true,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay: false,
           autoplaySpeed: 2500,
           speed: 1000,
       });

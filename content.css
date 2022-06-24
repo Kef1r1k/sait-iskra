@@ -45,16 +45,18 @@ a {
   top: 0px;
   overflow: hidden;
   z-index: 2;
+  display: flex;
+align-items: flex-end;
 }
 .star1{
   width: 100%;
-  height: 69%;
+  height: 43.2vw;
   background-image: url('./img/staryellow.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  top: 31%;
+  /* top: 31%; */
 }
 /* .line {
   width: 100%;
@@ -83,7 +85,7 @@ a {
   display: inline-block;
   vertical-align: top;
   margin-left: 0;
-  animation: go 18s linear infinite;
+  animation: go 10s linear infinite;
   animation-play-state: running;
 }
 
@@ -117,7 +119,7 @@ a {
 
 @keyframes go {
 0% {transform: translateX(0);}
-100% {transform: translateX(-100%); }
+100% {transform: translateX(-50%); }
 }
 /* .line1, .line2{
   font-size: 24px;
@@ -263,7 +265,7 @@ a {
   }
   .star2{
     width: 100%;
-    height: 69%;
+    height: 43.2vw;
     background-image: url('./img/starorange.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -409,7 +411,7 @@ a {
 }
 .star3{
   width: 100%;
-  height: 69%;
+  height: 43.2vw;
   background-image: url('./img/starblue.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -484,6 +486,7 @@ a {
 .card:hover{
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 .line1:hover{
     animation-play-state: paused;
@@ -515,28 +518,46 @@ display: inline-block;
   position: absolute;
   width: 100%;
   height: 100vh;
-  top: 364vh;
+  top: 370vh;
   overflow: hidden;
   z-index: 2;
 }
-
-.tickets{
-height: 80.6vh;
-width: 100%;
-position: relative;
-top: 5vh;
+.ticketgallery{
+  width: 100%;
+  z-index:10;
 }
-
+.tickets{
+/* height: 80.6vh;
+width: 64vw; */
+display: block;
+  overflow: hidden;
+/* position: relative;
+top: 5vh; */
+}
+.slick-track{
+  height: 80.6vh;
+  width: 64vw;
+}
 .bilet{
   height: 80.6vh;
   width: 64vw;
   left: 3.5vw;
-  position: absolute;
+  /* position: absolute;
   overflow: hidden;
   display: flex;
   flex-wrap: nowrap;
-flex-direction: column;
+flex-direction: column; */
 }
+.slider_wrap * {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.slick-slide {
+  margin: 0 28px;
+  padding-left: 70px;
+}
+ .slider-item img { max-width: 100%;}
 
 .n2{
   transform: translate(70vw, 0vw);
@@ -576,10 +597,12 @@ flex-direction: column;
 
 .caption{
   position: relative;
-  width:465px;
+  width:580px;
   top:10px;
   left: 100px;
-  display: inline-block;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 .cap{
   font-weight: 500;
@@ -601,19 +624,22 @@ flex-direction: column;
     line-height: 26px;
 }
 .price{
-  position: absolute;
-  bottom: 13vh;
-  left: 55.5vw;
+  position: relative;
+  left: 200px;
   display: inline-block;
+  color: black;
 }
 
 .screen6{
   position: absolute;
   width: 100%;
-  height: 100vh;
-  top: 454vh;
+  height: 80vh;
+  top: 465vh;
   overflow: hidden;
   z-index: 2;
+
+  display: flex;
+align-items: flex-end;
 }
 .last{
   top: 0;
@@ -621,20 +647,20 @@ flex-direction: column;
 
 .star4{
   width: 100%;
-  height: 69%;
+  height: 43.2vw;
   background-image: url('./img/staryellow.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  top: 24%;
+  align-items: flex-end;
 }
 .skobki3 {  display: grid;
-  height: 99vh;
+  height: 79vh;
   width: 92vw;
   position: absolute;
   left: 3.5vw;
-  top: 0vh;
+  /* top: 0vh; */
   z-index: 5;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -702,7 +728,7 @@ animation: miganie 3s linear 0s infinite;
     position: absolute;
     width: 100%;
     height: 100vh;
-    top: 554vh;
+    top: 545vh;
     overflow: hidden;
     z-index: 2;
     background-color: #FFD101;
@@ -790,7 +816,7 @@ animation: miganie 3s linear 0s infinite;
     width: 100%;
     background-color: black;
     position: absolute;
-    top:654vh;
+    top:645vh;
   }
   .hse{
     width:237px;
