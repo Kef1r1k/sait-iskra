@@ -1,6 +1,18 @@
-@media only screen and (min-width: 1224px) {
-  /* Desktop */
+@media only screen and (min-width: 1441px) and (max-device-width: 1924px) {
+  /* Desktop big */
+  /* .screen1, .screen2, .screen3, .screen4, .screen5, .screen6, .screen7 {width:80vw;} */
 }
+
+@media only screen and (min-height: 700px) and (max-height: 850px)  {
+  /* Desktop */
+  .star1, .star2, .star3, .star4{ height: 38vw;}
+  .skobki1 { top: 26vh; height: 74vh;}   .skobki2{ top: 8vh; height: 95vh;}
+  .op12, .op4{top:-70px;} .op5{top:-65px;} .op8{top:150px;} .op9{ top:155px;}
+  .ap4, .ap5{top: 250px;} .ap1{top: 195px;}
+  .yp1{top:-40px;} 
+  .home{ height: 58px; width: 58px; }
+  .s1{ top:-19vh;} .block{ top: -17vh;}
+.screen5{ height: 115vh;} .slick-list{ height: 95vh;} .ticketgallery{ height: 95vh;}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
@@ -25,4 +37,3 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
-  

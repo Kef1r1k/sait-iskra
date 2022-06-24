@@ -15,21 +15,30 @@ a {
   position: fixed;
   overflow: hidden;
   z-index: 15;
+  display: flex;
+  align-items: center;
 }
  .home{
-   width: 7vh;
-   height: 7vh;
+   width: 65px;
+   height: 65px;
    position: relative;
+   background-image: url('./img/home.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
    left: 3.5vw;
-   top: 1.5vh;
+   /* top: 1.5vh; */
  }
 .sidemenu{
-  width: 5vh;
-  height: 5vh;
+  width: 45px;
+  height: 45px;
   position: relative;
-  left: calc(100% - 166px);
-  top: -0.5vh;
-
+  left: calc(100% - 160px);
+  /* top: -0.5vh; */
+  background-image: url('./img/sidemenu.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .background{
   background-color: #FF6100;
@@ -166,6 +175,7 @@ align-items: flex-end;
 .re1 { grid-area: re1;
   background: url('./img/g1.svg');
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: left;
 }
 .op1{
@@ -176,7 +186,7 @@ align-items: flex-end;
 .op12{
   grid-area: re1;
   position: relative;
-  top:2vh;
+  top:20px;
   animation: miganie 3s linear .2s infinite;
 }
 @keyframes miganie {
@@ -189,43 +199,46 @@ align-items: flex-end;
 .re2 { grid-area: re2;
   background: url('./img/g2.svg');
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: 0 85px;
   align-content: center;}
 .op2{
   justify-content: center;
   grid-area: re2;
   position: relative;
-  top: 25vh;
+  top: 220px;
   align-content: center;
   animation: miganie 3s linear .5s infinite;
 }
 .op3{
   grid-area: re2;
   position: relative;
-  top: 26vh;
+  top: 220px;
   animation: miganie 3s linear .7s infinite;
 }
 .re3 { grid-area: re3;
   background: url('./img/g3.svg');
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: left;
 }
 .op4{
   grid-area: re3;
   position: relative;
-  top:8vh;
+  top:70px;
   animation: miganie 3s linear .2s infinite;
 }
 .op5{
   grid-area: re3;
   position: relative;
-  top:-8vh;
+  top:-75px;
   animation: miganie 3s linear .5s infinite;
 }
 
 .re4 { grid-area: re4;
   background: url('./img/g4.svg');
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: left;}
 
 .op6{
@@ -235,24 +248,25 @@ align-items: flex-end;
 .op7{
    grid-area: re4;
   position: relative;
-  top: .5vh;
+  top: 0px;
   animation: miganie 3s linear .7s infinite;
 }
 .op8{
    grid-area: re4;
    position: relative;
-   top: 22.5vh;
+   top: 205px;
    animation: miganie 3s linear 1s infinite;
 }
 .op9{
   grid-area: re4;
   position: relative;
-  top: 23vh;
+  top: 210px;
   animation: miganie 3s linear 1.2s infinite;
 }
 .re5 { grid-area: re5;
   background: url('./img/g5.svg');
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: left bottom;}
 
   .screen2{
@@ -287,7 +301,7 @@ align-items: flex-end;
     left: 3.5vw;
     top: 0vh;
     z-index: 5;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 0.8fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 35px;
     grid-auto-flow: row;
@@ -302,7 +316,7 @@ align-items: flex-end;
   .ra1 { grid-area: ra1;
     background: url('./img/g5.svg');
     background-repeat: no-repeat;
-    background-position: left 20%;
+    background-position: left 0%;
    }
 
   .ra2 { grid-area: ra2;
@@ -313,7 +327,7 @@ align-items: flex-end;
   .ap1{
      grid-area: ra2;
      position: relative;
-     top: 23vh;
+     top: 205px;
      animation: miganie 3s linear .7s infinite;
   }
 
@@ -325,13 +339,13 @@ align-items: flex-end;
   .ap2{
      grid-area: ra3;
      position: relative;
-     top: 12.5vh;
+     top: 115px;
      animation: miganie 3s linear 1s infinite;
   }
   .ap3{
     grid-area: ra3;
     position: relative;
-    top: 13vh;
+    top: 120px;
     animation: miganie 3s linear 1.2s infinite;
   }
   .ra5 { grid-area: ra5;
@@ -342,13 +356,13 @@ align-items: flex-end;
   .ap4{
      grid-area: ra5;
      position: relative;
-     top: 30vh;
+     top: 270px;
      animation: miganie 3s linear .3s infinite;
   }
   .ap5{
     grid-area: ra5;
     position: relative;
-    top: 30vh;
+    top: 270px;
     animation: miganie 3s linear .5s infinite;
   }
 
@@ -401,6 +415,9 @@ align-items: flex-end;
   transition: .5s;
   cursor: pointer;
 }
+.none{
+  left: 0;
+}
 .screen3{
   position: absolute;
   width: 100%;
@@ -427,7 +444,7 @@ align-items: flex-end;
 } */
 .block{
   position: relative;
-  top: -18vh;
+  top: -13vh;
 }
 
 .s2{
@@ -524,19 +541,22 @@ display: inline-block;
 }
 .ticketgallery{
   width: 100%;
+
   z-index:10;
 }
 .tickets{
 /* height: 80.6vh;
 width: 64vw; */
 display: block;
-  overflow: hidden;
+
+  /* overflow: hidden; */
 /* position: relative;
 top: 5vh; */
 }
 .slick-track{
   height: 80.6vh;
   width: 64vw;
+
 }
 .bilet{
   height: 80.6vh;
@@ -549,6 +569,7 @@ top: 5vh; */
 flex-direction: column; */
 }
 .slider_wrap * {
+
 box-sizing: border-box;
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
@@ -556,7 +577,9 @@ box-sizing: border-box;
 .slick-slide {
   margin: 0 28px;
   padding-left: 70px;
+
 }
+
  .slider-item img { max-width: 100%;}
 
 .n2{
@@ -570,8 +593,33 @@ box-sizing: border-box;
 }
 .banner{
   height: 458px;
+  width:820px;
   margin-left: 100px;
   margin-top: 100px;
+}
+.k1{
+  background-image: url('./img/bilett.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.k2{
+  background-image: url('./img/exhibition.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.k3{
+  background-image: url('./img/artclass.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.k4{
+  background-image: url('./img/masterclass.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .starblack{
   width: 195px;
@@ -678,13 +726,13 @@ align-items: flex-end;
 .up1{
 grid-area: ru1;
 position: relative;
-top: 25vh;
+top: 65px;
 animation: miganie 3s linear 0s infinite;
 }
 .up2{
   grid-area: ru1;
   position: relative;
-  top: 8vh;
+  top: 65px;
   animation: miganie 3s linear .2s infinite;
 }
 
@@ -692,19 +740,19 @@ animation: miganie 3s linear 0s infinite;
 .up3{
   grid-area: ru2;
   position: relative;
-  top: 25vh;
+  top: 220px;
   animation: miganie 3s linear 1s infinite;
 }
 .up4{
   grid-area: ru2;
   position: relative;
-  top: 15vh;
+  top: 130px;
   animation: miganie 3s linear 1.2s infinite;
 }
 .up5{
   grid-area: ru2;
   position: relative;
-  top: 5vh;
+  top: 40px;
   animation: miganie 3s linear 1.4s infinite;
 }
 .ru3 { grid-area: ru3;
@@ -715,13 +763,13 @@ animation: miganie 3s linear 0s infinite;
   .up6{
     grid-area: ru3;
     position: relative;
-    top: -10vh;
+    top: -90px;
     animation: miganie 3s linear .5s infinite;
   }
   .up7{
     grid-area: ru3;
     position: relative;
-    top: -18vh;
+    top: -162px;
     animation: miganie 3s linear .7s infinite;
   }
   .screen7{
@@ -773,14 +821,14 @@ animation: miganie 3s linear 0s infinite;
   grid-area: ro2;
   transform: rotate(180deg);
   position: relative;
-  top: 9vh;
+  top: 80px;
   animation: miganie 3s linear 1s infinite;
 }
 .yp2{
   grid-area: ro2;
   transform: rotate(180deg);
   position: relative;
-  top: -4vh;
+  top: -35px;
   animation: miganie 3s linear 1.2s infinite;
 }
 .ro3 { grid-area: ro3;
@@ -796,19 +844,19 @@ animation: miganie 3s linear 0s infinite;
   .yp3{
     grid-area: ro4;
     position: relative;
-    top: 30vh;
+    top: 270px;
     animation: miganie 3s linear 1.6s infinite;
   }
   .yp4{
     grid-area: ro4;
     position: relative;
-    top: 14vh;
+    top: 125px;
     animation: miganie 3s linear 1.4s infinite;
   }
   .yp5{
     grid-area: ro4;
     position: relative;
-    top: 30vh;
+    top: 270px;
     animation: miganie 3s linear 1.8s infinite;
   }
   .footer{
