@@ -41,6 +41,14 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
+  .iskraline, .infoline, .afishaline{height:140px;}
+  .re5, .ra4{display: none;} .skobki2 {gap: 0px 0px;}
+  .text,.normal,.button,.des,.card,.contacts, .cont, .author{font-size: 18px; line-height: 21px;}  .head{ font-size: 24px;} .cap{font-size:36px;}
+  .s1{top:20vh;} .block{top:0vh;} .screen3{height: 80vh;} .screen4{ height: 70vh; top: 296vh;} .sliders{top:15vh;} .line1{animation-duration: 24s;} .line2{animation-duration: 27s; top:145px;} .card{width: 19em;} .big{width: ;}
+  .description{top:4em;} .rec, .rectangles, .line1, .line2,.image{height: 145px;} .image{ width:121px;} .rec{width: 21px;} .rectengles{width:138px;}
+  .banner{width: 640px; height: 358px;} .desc{ width: 229px;} .caption{width: 420px;} .slick-list{ height: 78vh;} .ticketgallery{ height: 78vh;}
+  .screen6{ height:55vh;} .screen7{top:520vh;} .footer{top:620vh;} .hse{width: 205px; height:85px;}
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {

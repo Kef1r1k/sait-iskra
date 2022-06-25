@@ -141,8 +141,16 @@ $(function(){
           slidesToScroll: 1,
           infinite: true,
           autoplay: false,
-        
           autoplaySpeed: 2500,
           speed: 1000,
+          responsive:[
+            {
+            breakpoint: 1025,
+        settings: {
+        slidesToShow: 1,
+        centerMode: false
+      }
+    }
+          ]
       });
     });

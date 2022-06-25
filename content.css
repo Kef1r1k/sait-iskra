@@ -5,6 +5,7 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
   display: inline-block;
+
 }
 a {
   text-decoration:none;
@@ -931,6 +932,7 @@ animation: miganie 3s linear 0s infinite;
     background-color: black;
     position: absolute;
     top:645vh;
+    overflow: hidden;
   }
   .hse{
     width:237px;
