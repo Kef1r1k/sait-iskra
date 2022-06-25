@@ -4,6 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
+  display: inline-block;
 }
 a {
   text-decoration:none;
@@ -15,6 +16,7 @@ a {
   position: fixed;
   overflow: hidden;
   z-index: 15;
+  top:0;
   display: flex;
   align-items: center;
 }
@@ -40,23 +42,19 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.background{
-  background-color: #FF6100;
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-  position: relative;
-}
+
 .screen1{
   position: absolute;
   width: 100%;
   height: 100vh;
   top: 0px;
   overflow: hidden;
+    background-color: #FF6100;
   z-index: 2;
   display: flex;
 align-items: flex-end;
 }
+
 .star1{
   width: 100%;
   height: 43.2vw;

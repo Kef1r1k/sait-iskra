@@ -1,14 +1,31 @@
-@media only screen and (min-width: 1700px) and (max-device-width: 1924px) {
-  /* Desktop big */
+@media only screen and (min-width: 1924px){
+  /* Desktop super big */
+      body{background-color: #f6f5f3; margin: 0 300px;}
+    .home{ height: 80px; width: 80px; } .sidemenu{ height:55px; width: 55px; left: calc(100% - 200px);}
   .iskraline, .infoline, .afishaline{height:200px;}
   .skobki1{ height:70vh; top:30vh;} .size{ background-size: 90%;} .size1{width:9vw;}
   .op12, .op4{top:-100px;} .op5{top:-80px;} .op8{top:210px;} .op9{ top:215px;} .op2,.op3{top:260px;}
  .ap4, .ap5{top: 340px;} .ap1{top: 255px;} .ap2, .ap3{ top:140px;}
  .up3, .up4, .up5{top: 180px;} .up7{ top: -180px;}
   .yp1{top:-40px;}
-  .text,.normal,.button,.des,.card, .line1, .line2{font-size: 30px; line-height: 33px;}  .head{ font-size: 38px;} .cap{font-size:50px;}
+  .text,.normal,.button,.des,.card, .line1, .line2, .contacts, .cont, .author{font-size: 30px; line-height: 33px;}  .head{ font-size: 38px;} .cap{font-size:50px;}
   .s1{ width: 18em; top: -90px;} .s2{width: 19em;}  .rec, .rectangles, .image{height: 188px;} .image{ width:155px;} .rec{width: 24px;} .rectengles{width:148px;}
-  .banner{width: 1000px; height: 558px;} .desc{ width: 380px;} .caption{width: 785px;} 
+  .banner{width: 1000px; height: 558px;} .desc{ width: 380px;} .caption{width: 785px;} .hse{width: 300px; height:125px;}
+}
+
+
+@media only screen and (min-width: 1700px) and (max-device-width: 1924px) {
+  /* Desktop big */
+    .home{ height: 80px; width: 80px; } .sidemenu{ height:55px; width: 55px; left: calc(100% - 200px);}
+  .iskraline, .infoline, .afishaline{height:200px;}
+  .skobki1{ height:70vh; top:30vh;} .size{ background-size: 90%;} .size1{width:9vw;}
+  .op12, .op4{top:-100px;} .op5{top:-80px;} .op8{top:210px;} .op9{ top:215px;} .op2,.op3{top:260px;}
+ .ap4, .ap5{top: 340px;} .ap1{top: 255px;} .ap2, .ap3{ top:140px;}
+ .up3, .up4, .up5{top: 180px;} .up7{ top: -180px;}
+  .yp1{top:-40px;}
+  .text,.normal,.button,.des,.card, .line1, .line2, .contacts, .cont, .author{font-size: 30px; line-height: 33px;}  .head{ font-size: 38px;} .cap{font-size:50px;}
+  .s1{ width: 18em; top: -90px;} .s2{width: 19em;}  .rec, .rectangles, .image{height: 188px;} .image{ width:155px;} .rec{width: 24px;} .rectengles{width:148px;}
+  .banner{width: 1000px; height: 558px;} .desc{ width: 380px;} .caption{width: 785px;} .hse{width: 300px; height:125px;}
 }
 
 @media only screen and (min-height: 700px) and (max-height: 850px)  {
