@@ -150,8 +150,12 @@ align-items: flex-end;
   white-space: nowrap;
   width:100%;
 } */
-
-
+.size1{
+  /* width: 9vw; */
+}
+.size{
+  /* .background-size: 90%; */
+}
 .skobki1 {
   display: grid;
   height: 85vh;
@@ -517,8 +521,70 @@ width: 17em;
 }
 .image{
   width: 127px;
+  height: 150px;
   display: inline-block;
 }
+.origami{
+  background-image: url('./img/origami.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shityo{
+  background-image: url('./img/shityo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.biser{
+  background-image: url('./img/biser.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vyshv{
+  background-image: url('./img/vyshv.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.makrame{
+  background-image: url('./img/makrame.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vuaz{
+  background-image: url('./img/vuaz.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.milo{
+  background-image: url('./img/milo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ris{
+  background-image: url('./img/ris.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.svechi{
+  background-image: url('./img/svechi.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gon{
+  background-image: url('./img/gon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .headline{
   position: absolute;
   top:20px;
@@ -651,6 +717,7 @@ box-sizing: border-box;
   left: 100px;
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   flex-wrap: nowrap;
 }
 .cap{

@@ -141,7 +141,7 @@ $(function(){
           slidesToScroll: 1,
           infinite: true,
           autoplay: false,
-  
+        
           autoplaySpeed: 2500,
           speed: 1000,
       });
