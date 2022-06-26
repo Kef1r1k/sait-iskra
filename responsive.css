@@ -23,29 +23,44 @@
  .ap4, .ap5{top: 340px;} .ap1{top: 255px;} .ap2, .ap3{ top:140px;}
  .up3, .up4, .up5{top: 180px;} .up7{ top: -180px;}
   .yp1{top:-40px;}
-  .text,.normal,.button,.des,.card, .line1, .line2, .contacts, .cont, .author{font-size: 30px; line-height: 33px;}  .head{ font-size: 38px;} .cap{font-size:50px;}
-  .s1{ width: 18em; top: -90px;} .s2{width: 19em;}  .rec, .rectangles, .image{height: 188px;} .image{ width:155px;} .rec{width: 24px;} .rectengles{width:148px;}
+  .text,.normal,.button,.des,.card, .line1, .line2, .contacts, .cont, .author{font-size: 24px; line-height: 27px;}  .head{ font-size: 32px;} .cap{font-size:50px;} .big{width:19em;}
+  .s1{ width: 18em; top: -90px;} .s2{width: 19em;}  .rec, .rectangles, .image,.line1,.line2{height: 188px;} .line2{top:188px;}.image{ width:155px;} .rec{width: 24px;} .rectengles{width:148px;}
   .banner{width: 1000px; height: 558px;} .desc{ width: 380px;} .caption{width: 785px;} .hse{width: 300px; height:125px;}
 }
 
-@media only screen and (min-height: 700px) and (max-height: 850px)  {
+@media only screen and (min-height: 700px) and (max-height: 950px) and (min-width: 1600px) {
   /* Desktop */
+  .size{ background-size: 80%;} .size1{width:8vw;}
+    .iskraline, .infoline, .afishaline{height:140px;}
   .star1, .star2, .star3, .star4{ height: 38vw;}
-  .skobki1 { top: 26vh; height: 74vh;}   .skobki2{ top: 8vh; height: 95vh;}
-  .op12, .op4{top:-70px;} .op5{top:-65px;} .op8{top:150px;} .op9{ top:155px;}
+  .skobki1 { top: 22vh; height: 78vh;}   .skobki2{ top: 8vh; height: 95vh;}
+  .op12, .op4{top:-85px;} .op5{top:-65px;} .op8{top:185px;} .op9{ top:185px;}
   .ap4, .ap5{top: 250px;} .ap1{top: 195px;}
-  .yp1{top:-40px;}
+  .yp1{top:-40px;} .slick-list{ height: 90vh;} .ticketgallery{ height: 90vh;}
   .home{ height: 58px; width: 58px; }
   .s1{ top:-19vh;} .block{ top: -17vh;}
-.screen5{ height: 115vh;} .slick-list{ height: 95vh;} .ticketgallery{ height: 95vh;}
+  .screen4{height:70vh;} .sliders{top:10vh;} .screen6{top:500vh;} .screen7{top:580vh;} .footer{top:680vh;} .tic{top:-25px;}
+.screen5{ height: 115vh; top:390vh;} .slick-list{ height: 95vh;} .ticketgallery{ height: 95vh;}
+}
+@media only screen and (min-height: 700px) and (max-height: 850px)  {
+      .iskraline, .infoline, .afishaline{height:140px;}
+        .star1, .star2, .star3, .star4{ height: 38vw;}
+  .skobki1 { top: 25vh; height: 75vh;}   .skobki2{ top: 8vh; height: 95vh;}
+  .op12 {top:-65px;} .op4,.op5{top:-60px;} .op8{top:155px;} .op9{ top:155px;} .banner{width: 715px; height: 400px;} .desc{ width: 350px;} .price{left:100px;} .caption{width: 600px;} .slick-list{ height: 95vh;}
+  .ticketgallery{ height: 95vh;} .tic{top:-5px;} .s1{ top:-9vh;} .block{ top: -13vh;}
+  .screen4{height:70vh;} .sliders{top:10vh;} .screen6{top:500vh;} .screen7{top:580vh;} .footer{top:680vh;} .tic{top:-25px;}
+.screen5{ height: 115vh; top:390vh;}
+}
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
   .iskraline, .infoline, .afishaline{height:140px;}
+
   .re5, .ra4{display: none;} .skobki2 {gap: 0px 0px;}
   .text,.normal,.button,.des,.card,.contacts, .cont, .author{font-size: 18px; line-height: 21px;}  .head{ font-size: 24px;} .cap{font-size:36px;}
   .s1{top:20vh;} .block{top:0vh;} .screen3{height: 80vh;} .screen4{ height: 70vh; top: 296vh;} .sliders{top:15vh;} .line1{animation-duration: 24s;} .line2{animation-duration: 27s; top:145px;} .card{width: 19em;} .big{width: ;}
-  .description{top:4em;} .rec, .rectangles, .line1, .line2,.image{height: 145px;} .image{ width:121px;} .rec{width: 21px;} .rectengles{width:138px;}
+  .description{top:3.5em;} .rec, .rectangles, .line1, .line2,.image{height: 145px;} .image{ width:121px;} .rec{width: 21px;} .rectengles{width:138px;}
   .banner{width: 640px; height: 358px;} .desc{ width: 229px;} .caption{width: 420px;} .slick-list{ height: 78vh;} .ticketgallery{ height: 78vh;}
   .screen6{ height:55vh;} .screen7{top:520vh;} .footer{top:620vh;} .hse{width: 205px; height:85px;}
 
