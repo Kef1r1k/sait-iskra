@@ -122,6 +122,13 @@ $(function(){
     $('.background').delay(3200).hide(200);
   });
     });
+    $(window).resize(function () {
+    $('.js-slider').not('.slick-initialized').slick('resize');
+});
+
+$(window).on('orientationchange', function () {
+    $('.js-slider').not('.slick-initialized').slick('resize');
+});
 
     $(function(){
       $('.slidergallery').slick({
@@ -133,6 +140,7 @@ $(function(){
           speed: 1000,
       });
     });
+
     $(function(){
       $('.ticketgallery').slick({
         slidesToShow: 1.08,
@@ -145,12 +153,23 @@ $(function(){
           speed: 1000,
           responsive:[
             {
-            breakpoint: 1025,
-        settings: {
-        slidesToShow: 1,
-        centerMode: false
-      }
-    }
-          ]
+            breakpoint: 1024,
+       settings: {
+         slidesToShow: 1,
+         slidesToScroll: 1,
+         infinite: true,
+         dots: true,
+         centerMode: true,
+       },
+     },
+     {
+       breakpoint: 800,
+       settings: {
+         slidesToShow: 1,
+         slidesToScroll: 1
+       },
+     },
+   ],
       });
+        $(".ticketgallery").slick('setPosition');
     });

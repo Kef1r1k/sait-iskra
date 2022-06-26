@@ -89,7 +89,7 @@ align-items: flex-end;
 .top{
     top: 10vh;
 }
-.iskraline, .infoline, .afishaline{
+.iskraline, .infoline, .afishaline, .goline{
   display: inline-block;
   vertical-align: top;
   margin-left: 0;
@@ -849,11 +849,8 @@ animation: miganie 3s linear 0s infinite;
     background-color: #FFD101;
   }
 .go{
-  background-image: url('./img/goline.svg');
-  background-clip: border-box;
-  background-repeat: repeat-x;
   top: 0vh;
-  animation: go 10s linear infinite;
+
 }
 .skobki4 {  display: grid;
   height: 99vh;
