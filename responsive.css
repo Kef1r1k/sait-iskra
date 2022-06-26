@@ -103,9 +103,21 @@
 .ra4,.ra5{display: block;} .ra1{background-position: left 100%;} .ra5{background-position: left 40%;} .s1{top:28vh;}
 .screen3{top:200vh;} .block{top:10vh;} .screen4{top:280vh; height: 50vh;} .sliders{top: 10vh;} .line1{animation-duration: 28s;} .line2{animation-duration: 30s;} .screen5{top:330vh;}
 .slick-list{ height: 60vh;} .ticketgallery{ height: 60vh; top:5vh;} .tic{top:100px;} .screen6{top:420vh;} .screen7{top:475vh;} .skobki4{gap: 0px 10px;}
-.footer{top:575vh; display: flex; justify-content: space-evenly; flex-wrap: nowrap; align-items: center;} .contacts,.hse,.author{position: static;} .slick-slide{margin:0px; padding:0px;} .slick-list{padding:0px 0px;}
+.footer{top:575vh; display: flex; justify-content: space-evenly; flex-wrap: nowrap; align-items: center;} .contacts,.hse,.author{position: static;}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
-
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.ticket{overflow:hidden;} 
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad Landscape */
   .iskraline, .infoline, .afishaline, .linego{height:140px;}
