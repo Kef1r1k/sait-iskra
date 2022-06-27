@@ -1,0 +1,44 @@
+@media only screen and (min-width: 1700px) and (max-device-width: 1924px) {
+  /* Desktop big */
+    .home{ height: 80px; width: 80px; } .cross{ height:55px; width: 55px; left: calc(100% - 200px);}
+    .big{font-size: 100px; line-height: 140px;} .links{width: 10em; left:calc(50% - 5em); top:25vh;}
+  }
+
+  @media only screen and (min-height: 700px) and (max-height: 950px) and (min-width: 1600px) {
+    /* Desktop */
+
+    .home{ height: 58px; width: 58px; }
+  }
+@media only screen and (min-height: 700px) and (max-height: 850px)  {
+  .home{ height: 55px; width: 55px; }   .cross{ height: 35px; width: 35px; left:calc(100% - 130px);}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+  .links{ top:30vh;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+
+  .home{ height: 60px; width: 60px; left:8vw; } .cross{ height:40px; width: 40px; left: calc(100% - 130px);}
+  .big{font-size: 52px; line-height: 80px;} .links{width: 5em; left:calc(50% - 2.5em); top:30vh;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+
+}

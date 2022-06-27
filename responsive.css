@@ -36,7 +36,7 @@
   .star1, .star2, .star3, .star4{ height: 38vw;}
   .skobki1 { top: 22vh; height: 78vh;}   .skobki2{ top: 8vh; height: 95vh;}
   .op12, .op4{top:-85px;} .op5{top:-65px;} .op8{top:185px;} .op9{ top:185px;}
-  .ap4, .ap5{top: 250px;} .ap1{top: 195px;}
+  .ap4, .ap5{top: 295px;} .ap1{top: 215px;}
   .yp1{top:-40px;} .slick-list{ height: 90vh;} .ticketgallery{ height: 90vh;}
   .home{ height: 58px; width: 58px; }
   .s1{ top:-19vh;} .block{ top: -17vh;}
@@ -48,6 +48,7 @@
 .screen5{ height: 115vh; top:390vh;} .slick-list{ height: 95vh;} .ticketgallery{ height: 95vh;}
 }
 @media only screen and (min-height: 700px) and (max-height: 850px)  {
+    .home{ height: 55px; width: 55px; }   .sidemenu{ height: 40px; width: 40px; left:calc(100% - 135px);}
       .iskraline, .infoline, .afishaline, .goline{height:140px;}
         .star1, .star2, .star3, .star4{ height: 33vw;}
   .skobki1 { top: 25vh; height: 75vh;}   .skobki2{ top: 8vh; height: 95vh;}
@@ -209,8 +210,19 @@ grid-template-areas:
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone Landscape */
+.topmenu{height:20vh;}   .home{ height: 40px; width: 40px; left:3.5vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 130px);}
+  .star1, .star2, .star3, .star4{background-size: 200%; height: 50vh;}
+  .iskraline, .infoline, .afishaline, .goline{height:105px;}
 }
 
+@media only screen and (min-device-hight:360px) and (max-device-hight:480px){
+  .topmenu{height:20vh;}   .home{ height: 40px; width: 40px; left:3.5vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 130px);}
+    .star1, .star2, .star3, .star4{background-size: 200%; height: 50vh;}
+    .iskraline, .infoline, .afishaline, .goline{height:105px;}
+
+
+
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
   .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 130px);}

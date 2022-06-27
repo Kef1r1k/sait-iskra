@@ -22,7 +22,7 @@ $(function(){
 });
 
 $(function(){
-	$(".home").click(function(){
+	$(".scroll").click(function(){
 		$('html, body').animate({scrollTop: 0}, 600);
 		return false;
 	});
@@ -144,7 +144,7 @@ $(window).on('orientationchange', function () {
     $(function(){
       $('.ticketgallery').slick({
         slidesToShow: 1.08,
-        centerMode: false,
+        centerMode: true,
         dots: true,
           slidesToScroll: 1,
           infinite: true,
