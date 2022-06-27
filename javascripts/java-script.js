@@ -144,7 +144,7 @@ $(window).on('orientationchange', function () {
     $(function(){
       $('.ticketgallery').slick({
         slidesToShow: 1.08,
-        centerMode: true,
+        centerMode: false,
         dots: true,
           slidesToScroll: 1,
           infinite: true,
@@ -159,7 +159,7 @@ $(window).on('orientationchange', function () {
          slidesToScroll: 1,
          infinite: true,
          dots: true,
-         centerMode: true,
+         centerMode: false,
        },
      },
      {

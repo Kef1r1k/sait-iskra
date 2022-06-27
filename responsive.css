@@ -109,14 +109,16 @@
     display: block;
     overflow: hidden;
     margin: 0;
-    padding: 0;
+    padding: 0px 0px;
 }
 .slick-slide {
     float: left;
     height: 100%;
     min-height: 1px;
+    margin: 0;
+    padding: 0;
 }
-.ticket{overflow:hidden;} 
+.ticket{overflow:hidden;}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad Landscape */
