@@ -79,11 +79,20 @@ $(function(){
     slidesToShow: 1,
       slidesToScroll: 1,
       infinite: true,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 4000,
       speed: 1000,
       nextArrow: "<img src='img/arrow.svg' class='next' alt='2'>",
-
+      responsive:[
+        {
+        breakpoint: 800,
+      settings: {
+        arrows: false,
+        nextArrow: false,
+        dots: true,
+      },
+    }
+  ]
   });
 });
 $(function(){
@@ -148,7 +157,7 @@ $(window).on('orientationchange', function () {
         dots: true,
           slidesToScroll: 1,
           infinite: true,
-          autoplay: false,
+          autoplay: true,
           autoplaySpeed: 2500,
           speed: 1000,
           responsive:[
