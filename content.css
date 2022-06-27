@@ -923,7 +923,7 @@ animation: miganie 3s linear 0s infinite;
     top: 270px;
     animation: miganie 3s linear 1.8s infinite;
   }
-  .footer{
+  .footer, .footer2{
     height: 30vh;
     width: 100%;
     background-color: black;
@@ -959,3 +959,4 @@ animation: miganie 3s linear 0s infinite;
   top: 6.5vh;
   display: inline-block;
 }
+.footer2{display: none;}

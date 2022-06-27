@@ -118,11 +118,11 @@
     margin: 0;
     padding: 0;
 }
-.ticket{overflow:hidden;}
+.ticket{overflow:hidden;} .starblack {width: 133px;height: 133px;position: absolute;  top: 31px;margin-left: 4vw;}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad Landscape */
-  .iskraline, .infoline, .afishaline, .linego{height:140px;}
+  .iskraline, .infoline, .afishaline, .goline{height:140px;}
   .star1, .star2, .star3, .star4{ height: 38vw;}
   .re5, .ra4{display: none;} .skobki2 {gap: 0px 0px;}
   .text,.normal,.button,.des,.card,.contacts, .cont, .author{font-size: 18px; line-height: 21px;}  .head{ font-size: 24px;} .cap{font-size:36px;}
@@ -134,13 +134,153 @@
 }
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
   /* iPhone Portrait */
-}
+  .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 130px);}
+  .star1, .star2, .star3, .star4{background-size: 200%; height: 50vh;}
+  .iskraline, .infoline, .afishaline, .goline{height:105px;}
+  .skobki1 {
+    left: 8vw;
+    top:13vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 20px;
+  grid-template-areas:
+    ". re2 . "
+    "re1 re2 re3 "
+    "re1 re2 re3 "
+    "re1 re2 re3 "
+    ". . . ";
+  } .re4{display: none;} .size{background-size: 100%;} .size1{width: 100%;}
+  .re2{background-position: 0 115px;} .op4{top:20px;} .op5{top:25px;} .re3{background-position: left 150px;}.re1{background-position: left 50px;} .op12{display: none;} .op1{position:relative; top:12px;}
+  .skobki2 {
+    left: 8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 20px;
+  grid-template-areas:
+    ". ra3 ra5 "
+    "ra2 ra3 ra5 "
+    "ra2 ra3 ra5 "
+    "ra2 . . "
+    ". . . ";
+  }
 
+.ra5 {display: block; background-position: left 40%;} .ra1{display:none} .ra3{background-position: left 20%;} .s1{top:28vh;} .ap4,.ap5{top:440px;} .ap2,.ap3{top:245px;} .ap1{top:250px;}
+.text,.normal,.button,.des,.card,.contacts, .cont, .author{font-size: 14px; line-height: 17px;}  .head{ font-size: 21px;} .cap{font-size:27px;}
+.s1{top:20vh; left:8vw;} .screen3{top:200vh;} .block{top:2vh;height: 75vh;} .screen4{top:275vh; height: 65vh;} .sliders{top:15vh;}
+.line1{animation-duration: 27s;} .line2{animation-duration: 30s; top:145px;} .card{width: 19.5em;} .big{width:22em;}
+.description{top:3.5em; width:11em;} .rec, .rectangles, .line1, .line2,.image,.card{height: 145px;} .image{ width:121px;} .rec{width: 18px;} .rectengles{width:128px;}
+.screen5{top:340vh; height: 70vh}
+.slick-list {position: relative;display: block; overflow: hidden; margin: 0; padding: 0px 0px;}
+.slick-slide {float: left; height: 100%; min-height: 1px; margin: 0; padding: 0;}
+.slick-list{ height: 50vh;} .ticketgallery{ height: 50vh; top:0vh;} .tic{top:20px;} .ticket{overflow:hidden;} .starblack {display:none;}
+.banner {height: 232px; width:100vw; margin-left:0px;} .caption{left:8vw; width: 350px;} .desc{left:8vw; width:178px;} .price{left:0;} .screen6{top:410vh; height: 60vh;}
+.skobki3 {
+  left: 8vw;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 0.4fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap: 0px 20px;
+grid-template-areas:
+  ". . . . "
+  ". ru2 . . "
+  "ru1 ru2 . . "
+  "ru1 . ru3 . ";
+}
+.up3{top:200px;} .up4{top:135px;} .up5{top:70px;} .up7{top:-140px;}
+.screen7{top:470vh;}.footer{display:none;} .footer2{display: block; top:570vh; height:20vh;} .flex{display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; position: absolute; left:50vw; top:4vh;}
+.hse{width: 133px; height:60px; position: absolute; left:8vw; top:4vh;} .contacts,.author{position: static; margin-bottom: 15px;}
+.skobki4 {
+  left: 8vw;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 0.4fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap: 0px 20px;
+grid-template-areas:
+  "ro1 . . . "
+  "ro1 . ro4 . "
+  "ro1 ro2 ro4 . "
+  ". ro2 ro4 . ";
+}
+.ro3{display: none;} .ro1{background-position: left 57%;} .yp1{top:180px;} .yp2{top:100px;}
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone Landscape */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
+  .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 130px);}
+  .star1, .star2, .star3, .star4{background-size: 200%; height: 50vh;}
+  .iskraline, .infoline, .afishaline, .goline{height:105px;}
+  .skobki1 {
+    left: 8vw;
+    top:13vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 20px;
+  grid-template-areas:
+    ". re2 . "
+    "re1 re2 re3 "
+    "re1 re2 re3 "
+    "re1 re2 re3 "
+    ". . . ";
+  } .re4{display: none;} .size{background-size: 100%;} .size1{width: 100%;}
+  .re2{background-position: 0 115px;} .op4{top:20px;} .op5{top:25px;} .re3{background-position: left 150px;}.re1{background-position: left 50px;} .op12{display: none;} .op1{position:relative; top:12px;}
+  .skobki2 {
+    left: 8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 20px;
+  grid-template-areas:
+    ". ra3 ra5 "
+    "ra2 ra3 ra5 "
+    "ra2 ra3 ra5 "
+    "ra2 . . "
+    ". . . ";
+  }
+
+.ra5 {display: block; background-position: left 40%;} .ra1{display:none} .ra3{background-position: left 20%;} .s1{top:28vh;} .ap4,.ap5{top:440px;} .ap2,.ap3{top:245px;} .ap1{top:250px;}
+.text,.normal,.button,.des,.card,.contacts, .cont, .author{font-size: 14px; line-height: 17px;}  .head{ font-size: 21px;} .cap{font-size:27px;}
+.s1{top:20vh; left:8vw;} .screen3{top:200vh;} .block{top:2vh;height: 75vh;} .screen4{top:275vh; height: 65vh;} .sliders{top:15vh;}
+.line1{animation-duration: 27s;} .line2{animation-duration: 30s; top:145px;} .card{width: 19.5em;} .big{width:22em;}
+.description{top:3.5em; width:11em;} .rec, .rectangles, .line1, .line2,.image,.card{height: 145px;} .image{ width:121px;} .rec{width: 18px;} .rectengles{width:128px;}
+.screen5{top:340vh; height: 70vh}
+.slick-list {position: relative;display: block; overflow: hidden; margin: 0; padding: 0px 0px;}
+.slick-slide {float: left; height: 100%; min-height: 1px; margin: 0; padding: 0;}
+.slick-list{ height: 50vh;} .ticketgallery{ height: 50vh; top:0vh;} .tic{top:20px;} .ticket{overflow:hidden;} .starblack {display:none;}
+.banner {height: 232px; width:100vw; margin-left:0px;} .caption{left:8vw; width: 350px;} .desc{left:8vw; width:178px;} .price{left:0;} .screen6{top:410vh; height: 60vh;}
+.skobki3 {
+  left: 8vw;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 0.4fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap: 0px 20px;
+grid-template-areas:
+  ". . . . "
+  ". ru2 . . "
+  "ru1 ru2 . . "
+  "ru1 . ru3 . ";
+}
+.up3{top:200px;} .up4{top:135px;} .up5{top:70px;} .up7{top:-140px;}
+.screen7{top:470vh;}.footer{display:none;} .footer2{display: block; top:570vh; height:20vh;} .flex{display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; position: absolute; left:50vw; top:4vh;}
+.hse{width: 133px; height:60px; position: absolute; left:8vw; top:4vh;} .contacts,.author{position: static; margin-bottom: 15px;}
+.skobki4 {
+  left: 8vw;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 0.4fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap: 0px 20px;
+grid-template-areas:
+  "ro1 . . . "
+  "ro1 . ro4 . "
+  "ro1 ro2 ro4 . "
+  ". ro2 ro4 . ";
+}
+.ro3{display: none;} .ro1{background-position: left 57%;} .yp1{top:180px;} .yp2{top:100px;}
+}

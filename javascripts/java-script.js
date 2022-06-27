@@ -163,10 +163,13 @@ $(window).on('orientationchange', function () {
        },
      },
      {
-       breakpoint: 800,
+       breakpoint: 480,
        settings: {
          slidesToShow: 1,
-         slidesToScroll: 1
+         slidesToScroll: 1,
+         infinite: true,
+         dots: true,
+         centerMode: false,
        },
      },
    ],
