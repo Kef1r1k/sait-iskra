@@ -26,10 +26,10 @@
   /* iPad Portrait */
   .home{left:4.5vw;}
   .line,.rec{height:260px;} .button{display: none;} .screen2{display: block;} .block{top:5vh;} .screen{height: 55vh;} .screen2{top:65vh; height:52.5vh;} .rect{height:24px;}
-  .footer{top:148vh;} .n2{display: block; position: absolute; top:48vh;} .map{width:100vw;} .screen3{display: block; height:33vh; position: absolute; top:115vh; width: 100vw; background-color: #5EB6CA;}
+ .n2{display: block; position: absolute; top:48vh;} .map{width:100vw;} .screen3{display: block; height:33vh; position: absolute; top:115vh; width: 100vw; background-color: #5EB6CA;}
 .s1{display: none;} .v2{display: block; left:4.5vw; top:9vh;}
 
-.footer{display: flex; justify-content: space-evenly; flex-wrap: nowrap; align-items: center;} .contacts,.hse,.author{position: static;}
+.footer{top:148vh; display: flex; justify-content: space-evenly; flex-wrap: nowrap; align-items: center;} .contacts,.hse,.author{position: static;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
