@@ -144,7 +144,7 @@ $(window).on('orientationchange', function () {
         slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 2500,
           speed: 1000,
       });
