@@ -180,13 +180,15 @@ left: calc(21.5vw - 4.5em);
   display: none;
 }
 
-.footer{
+.footer,.footer2{
   height: 30vh;
   width: 100%;
   background-color: black;
   position: absolute;
   top:100vh;
+  overflow: hidden;
 }
+.footer2{display: none;}
 .hse{
   width:237px;
   height: 95px;
