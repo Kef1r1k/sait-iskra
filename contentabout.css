@@ -14,20 +14,31 @@ a {
   position: fixed;
   overflow: hidden;
   z-index: 15;
+  top:0;
+  display: flex;
+  align-items: center;
 }
  .home{
-   width: 7vh;
-   height: 7vh;
+   width: 65px;
+   height: 65px;
    position: relative;
+   background-image: url('./img/home.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
    left: 3.5vw;
-   top: 1.5vh;
+   /* top: 1.5vh; */
  }
 .sidemenu{
-  width: 5vh;
-  height: 5vh;
+  width: 45px;
+  height: 45px;
   position: relative;
-  left: calc(100% - 166px);
-  top: -0.5vh;
+  left: calc(100% - 160px);
+  /* top: -0.5vh; */
+  background-image: url('./img/sidemenu.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .screen{
@@ -39,18 +50,19 @@ a {
 }
 .line{
   height: 350px;
-  width: 230%;
+  width: 3500px;
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
+  align-content: center;
   flex-wrap: wrap;
   justify-content: flex-start;
-  animation: go 15s linear infinite;
+  animation: go 10s linear infinite;
 }
 @keyframes go {
   0%{ left: 0px;}
-  100%{left: -1500px; transition: all  ease 0s;}
+  100%{left: -1750px;}
 }
 .rec{
   height: 350px;
@@ -60,6 +72,7 @@ a {
   position: relative;
   margin-left: 46px;
 }
+.n2{display: none;}
 .none{
   margin-left: 0;
 }
@@ -136,6 +149,7 @@ a {
   width: 100%;
   height: 50px;
   background-color: black;
+  z-index: 5;
 }
 .s1{
   position: relative;
@@ -147,22 +161,33 @@ a {
   position: relative;
 }
 .map{
-  width: 1004px;
-  height: 591px;
+  width: 1000px;
+  height: 590px;
+background-image: url('./img/map.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
   position: relative;
 }
 .head{
   font-size: 32px;
   margin-bottom: 24px;
 }
+.screen3{
+  display: none;
+}
+.v2{display: none;}
 
-
-.footer{
+.footer, .footer2{
   height: 30vh;
   width: 100%;
   background-color: black;
   position: absolute;
   top:100vh;
+  overflow: hidden;
+}
+.footer2{
+  display: none;
 }
 .hse{
   width:237px;

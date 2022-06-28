@@ -11,6 +11,8 @@
   .text,.normal,.button,.des,.card, .line1, .line2, .contacts, .cont, .author{font-size: 30px; line-height: 33px;}  .head{ font-size: 38px;} .cap{font-size:50px;}
   .s1{ width: 18em; top: -90px;} .s2{width: 19em;}  .rec, .rectangles, .image{height: 188px;} .image{ width:155px;} .rec{width: 24px;} .rectengles{width:148px;}
   .banner{width: 1000px; height: 558px;} .desc{ width: 380px;} .caption{width: 785px;} .hse{width: 300px; height:125px;}
+  @keyframes linemove1{0%{left:0;} 100%{left:-2832px;}}  @keyframes linemove2{0%{left:0;} 100%{left:-2976px;}}
+
 }
 
 
@@ -225,7 +227,7 @@ grid-template-areas:
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
-  .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 130px);}
+  .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 125px);}
   .star1, .star2, .star3, .star4{background-size: 200%; height: 50vh;}
   .iskraline, .infoline, .afishaline, .goline{height:105px;}
   .skobki1 {
