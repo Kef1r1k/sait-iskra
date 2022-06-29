@@ -265,6 +265,15 @@ display: inline-block;
     display: flex;
     justify-content: space-between;
   }
+  .form{
+    font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 40px;
+  }
   .cross{
     width: 3vh;
     height: 3vh;

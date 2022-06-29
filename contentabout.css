@@ -58,7 +58,7 @@ a {
   align-content: center;
   flex-wrap: wrap;
   justify-content: flex-start;
-  animation: go 10s linear infinite;
+  animation: go 15s linear infinite;
 }
 @keyframes go {
   0%{ left: 0px;}

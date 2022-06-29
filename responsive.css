@@ -52,14 +52,18 @@
 @media only screen and (min-height: 700px) and (max-height: 850px)  {
     .home{ height: 55px; width: 55px; }   .sidemenu{ height: 40px; width: 40px; left:calc(100% - 135px);}
       .iskraline, .infoline, .afishaline, .goline{height:140px;}
-        .star1, .star2, .star3, .star4{ height: 33vw;}
+    .star1, .star2, .star3, .star4{ height: 33vw;}
   .skobki1 { top: 25vh; height: 75vh;}   .skobki2{ top: 8vh; height: 95vh;}
   .op12 {top:-65px;} .op4,.op5{top:-60px;} .op8{top:155px;} .op9{ top:155px;} .banner{width: 715px; height: 400px;} .desc{ width: 350px;} .price{left:100px;} .caption{width: 600px;} .slick-list {height: 95vh;}
   .ticketgallery{ height: 95vh;} .tic{top:-5px;} .s1{ top:-9vh;} .block{ top: -13vh;}
   .screen4{height:70vh;} .sliders{top:10vh;} .screen6{top:500vh;} .screen7{top:580vh;} .footer{top:680vh;} .tic{top:-25px;}
 .screen5{ height: 115vh; top:390vh;}
 }
-
+@media only screen and (min-height: 700px) and (max-height: 850px) and (min-width: 1500px)  {
+    .iskraline, .infoline, .afishaline, .goline{height:130px;}
+    .re4{background-position: left 45%;} .op8{top:135px;} .op9{top:140px;} .op12{top:-72px;} .ap1{top:185px;} .ap4, .ap5{top:240px;}
+    .yp1{top:40px; }.yp2{top:-80px;} .ro3{background-position: left 30%;} .ro4{background-position: left 10%;}
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */

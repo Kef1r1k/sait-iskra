@@ -14,22 +14,34 @@ a {
   background: black;
   position: fixed;
   overflow: hidden;
-  z-index: 10;
+  z-index: 15;
+  top:0;
+  display: flex;
+  align-items: center;
 }
  .home{
-   width: 7vh;
-   height: 7vh;
+   width: 65px;
+   height: 65px;
    position: relative;
+   background-image: url('./img/home.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
    left: 3.5vw;
-   top: 1.5vh;
+   /* top: 1.5vh; */
  }
 .sidemenu{
-  width: 5vh;
-  height: 5vh;
+  width: 45px;
+  height: 45px;
   position: relative;
-  left: calc(100% - 166px);
-  top: -0.5vh;
+  left: calc(100% - 160px);
+  /* top: -0.5vh; */
+  background-image: url('./img/sidemenu.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
 
 .background{
   display: none;
@@ -521,13 +533,15 @@ border-bottom: 8px transparent solid;
   top: 60px;
 }
 
-.footer{
+.footer, .footer2{
   height: 30vh;
   width: 100%;
   background-color: black;
   position: absolute;
   top:100vh;
+  overflow: hidden;
 }
+.footer2{display:none;}
 .hse{
   width:237px;
   height: 95px;

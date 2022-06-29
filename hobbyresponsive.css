@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1700px) and (max-device-width: 1924px) {
+  /* Desktop big */
+    .home{ height: 80px; width: 80px; } .sidemenu{ height:55px; width: 55px; left: calc(100% - 200px);}
+.star{width:100%; height:43.2vw;} .none{margin-left:8px;}
+.rectangles, .rec, .line1, .line2, .block{ height: 200px;} .big{font-size:80px; line-height: 190px; } .rec{width:25px;} .line2{width:7080px; top:200px;}
+.question {height:60vh; top:20vh; width:36vw; left: calc(50% - 18vw);} .continue, .complete{top: 40px; left: calc(18vw - 4.5em);}
+.form{margin-top:52px;} .radio-list{margin-left:90px;} .forma{height:67vh; top:20vh; width:36vw; left: calc(50% - 18vw);} .forma_after{height: 14.5vh; width: 36vw; left: calc(50% - 18vw); top: calc(50% - 7vh);}
+.headline{width:45vw;} .image{width:486px; height:486px;} .content{top:-35vh;} .comment{left:5vw; top: -4em;} .cross{left:32vw;}
+  }
+
+  @media only screen and (min-height: 700px) and (max-height: 950px) and (min-width: 1600px) {
+    /* Desktop */
+.rectangles, .rec, .line1, .line2, .block{ height: 170px;} .big{font-size:80px; line-height: 160px; } .rec{width:25px;} .line2{width:7080px; top:170px;}
+.image{width:386px; height:386px;} .content{top:-44vh;} .comment{left:3.5vw; top: 2em;}
+    .home{ height: 58px; width: 58px; } .forma,.question{ top:14vh; height:78vh;} .question{height:70vh;} .continue{top:55px;} .forma_after{height: 16vh;}
+  }
+@media only screen and (min-height: 700px) and (max-height: 850px)  {
+  .home{ height: 55px; width: 55px; }   .sidemenu{ height: 35px; width: 35px; left:calc(100% - 125px);}
+ .image{height: 380px; width: 380px;} .forma{height: 84vh; top:12vh;} .complete{top: 20px;}
+ .question {height:82vh; top:13vh;} .continue{top: 70px;} .form{margin-top:24px;}
+}
+@media only screen and (min-height: 700px) and (max-height: 850px) and (min-width: 1500px)  {
+.form{margin-top:24px;} .forma{height: 87vh; top:11vh;} .complete{top: 5px;} .image{height: 350px; width: 350px;} .content{bottom:24vh;} .list{position: relative; left:20px;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+    .text,.normal,.button, .contacts, .cont, .author,.block,.s1, .v1, .v2, .v3, .v4, .comment, input[type="text"], input[type="email"], input[type="tel"], label,.put{font-size: 18px; line-height: 21px;}
+    .forma, .question{height:80vh; top:15vh; width:50vw; left: calc(50% - 25vw);} .complete, .continue{ left: calc( 25vw - 4.5em);} .question{height: 75vh;} .forma_after{height: 20vh;}
+    input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{width:182px;} .form-split, .fo, .checkbox-list, .radio-list{width:400px;} .cross{left:44vw;} .list1, .list2{width:180px;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+  .star{height: 40.5vh; width:100%;} .image{width:350px; height:350px;} .content{top:8vh;}
+  .footer{top:100vh; display: flex; justify-content: space-evenly; flex-wrap: nowrap; align-items: center;} .contacts,.hse,.author{position: static;} .line1{animation-duration: 20s;}
+  .none{margin-left:8px;} .rectangles, .rec, .line1, .line2, .block{ height: 170px;} .big{line-height: 160px; } .rec{width:25px;} .line2{width:7080px; top:170px; animation-duration: 28s;}
+  input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{width:182px;} .form-split, .fo, .checkbox-list, .check-list{width:400px;}
+  .form{margin-top:30px;} .forma, .question{height: 60vh; width: 74vw; left: calc(50% - 37vw); top:20vh;} .complete, .continue{left:calc(37vw - 4.5em); top: 14px;} .cross{width:2vh; height:2vh; left:68vw;}
+  .forma_after{width: 63vw; left: calc(50% - 32.5vw); height:16vh;} .list1, .list2{width: 230px;} .continue{top: 55px;} .question{height: 55vh;} .list{ position: relative; left: 15px;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+  .text,.normal,.button, .contacts, .cont, .author,.block,.s1, .v1, .v2, .v3, .v4, .comment, input[type="text"], input[type="email"], input[type="tel"], label,.put{font-size: 18px; line-height: 21px;}
+  .forma, .question{height:80vh; top:15vh; width:50vw; left: calc(50% - 25vw);} .complete, .continue{ left: calc( 25vw - 4.5em);} .question{height: 75vh;} .forma_after{height: 20vh;}
+  input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{width:182px;} .form-split, .fo, .checkbox-list, .radio-list{width:400px;} .cross{left:44vw;} .list1, .list2{width:180px;}
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+  .star{background-size: 200%; height: 50vh;} .image{height: 250px; width:250px;}
+  .text,.normal,.button, .contacts, .cont, .author, .description, input[type="text"], input[type="email"], input[type="tel"], label,.put, .block,.s1, .v1, .v2, .v3, .v4, .comment {font-size: 14px; line-height: 17px;}
+  .footer{display: none;} .footer2{display: block; top:100vh; height:20vh;} .flex{display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; position: absolute; left:50vw; top:4vh;}
+  .hse{width: 133px; height:60px; position: absolute; left:8vw; top:4vh;} .contacts,.author{position: static; margin-bottom: 15px;}
+  .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 125px);} .big{font-size: 50px;}
+  .text,.normal,.button, .contacts, .cont, .author, .description, input[type="text"], input[type="email"], input[type="tel"], label,.put {font-size: 14px; line-height: 17px;}
+  .content{flex-direction: column; align-content: flex-start; align-items:flex-start; left: 8vw; bottom:11vh;} .comment{left:0;}
+
+  input[type="text"], input[type="email"], input[type="tel"] {width:340px; height:40px;} .put{width:160px; height:40px;} .form-split, .fo, .checkbox-list, .radio-list{width:340px;}
+  .form{margin-top:24px; font-size:45px; width:398px;} .forma, .question{height: 70vh; width: 99vw; left:0; top:20vh;} .complete, .continue{left:calc(50vw - 4.5em);} .cross{width:2vh; height:2vh; left:90vw;}
+  .list1,.list2{ width:140px;} .list{position: relative; left:-32px;} .question{height:64vh;} .forma_after{width:100vw; left:0; height: 18vh; top: calc(50% - 9vh); padding:5px;} .line2{animation-duration: 28s;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+
+}

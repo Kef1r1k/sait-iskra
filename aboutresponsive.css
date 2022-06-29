@@ -6,13 +6,15 @@
 
   @media only screen and (min-height: 700px) and (max-height: 950px) and (min-width: 1600px) {
     /* Desktop */
-    .block{top:4.5vh;} .karta{top:80px;}
+    .block{top:4.5vh;} .karta{top:80px;} .forma_after{height: 16vh;}
     .home{ height: 58px; width: 58px; } .line{animation-duration: 20s;} .s1{bottom:50vh;}
+
   }
 @media only screen and (min-height: 700px) and (max-height: 850px)  {
   .home{ height: 55px; width: 55px; }   .sidemenu{ height: 35px; width: 35px; left:calc(100% - 125px);}
   .line,.rec{height:270px;} .button{top:40px;} .block{top:3.5vh;}
   .map{width: 950px; top:-17px;} .screen2{height:85vh;} .s1{bottom:60vh; left:72vw;} .line{animation-duration: 20s;}
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -20,6 +22,7 @@
   .text,.normal,.button, .contacts, .cont, .author,.block,.s1{font-size: 18px; line-height: 21px;}  .headline, .head{ font-size: 24px; line-height: 27px;}
   .block{top:9vh;} .button{top:110px;} .map{width:700px; height:490px; top:0; background-size: cover; background-position: right;} .s1{bottom:42vh;}
   .rec{width:24px; margin-left:28px;} .line{animation-duration: 20s;}
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -28,6 +31,7 @@
   .line,.rec{height:260px;} .button{display: none;} .screen2{display: block;} .block{top:5vh;} .screen{height: 55vh;} .screen2{top:65vh; height:52.5vh;} .rect{height:24px;}
  .n2{display: block; position: absolute; top:48vh;} .map{width:100vw;} .screen3{display: block; height:33vh; position: absolute; top:115vh; width: 100vw; background-color: #5EB6CA;}
 .s1{display: none;} .v2{display: block; left:4.5vw; top:9vh;}
+
 
 .footer{top:148vh; display: flex; justify-content: space-evenly; flex-wrap: nowrap; align-items: center;} .contacts,.hse,.author{position: static;}
 }

@@ -5,12 +5,17 @@
 }
 
 @media only screen and (min-height: 700px) and (max-height: 950px) and (min-width: 1600px) {
-.question{height: 70vh;} .forma{top: 16vh; height:75vh;}
+.question{height: 70vh;} .forma{top: 16vh; height:75vh;} .forma_after{height: 20vh;}
 }
 
-@media only screen and (min-height: 700px) and (max-height: 850px)  {
+
+@media only screen and (min-height: 700px) and (max-height: 850px) {
   .home{ height: 55px; width: 55px; }   .sidemenu{ height: 40px; width: 40px; left:calc(100% - 135px);}
-  .forma{height:90vh; top:10vh;} .complete{top:10px;} .cross{top:4vh;} .forma_after{height:28vh;}
+ .cross{top:3vh;} .forma{height: 84vh; top:12vh;} .complete{top: 20px;}
+  .question {height:82vh; top:13vh;} .continue{top: 70px;} .form{margin-top:24px;}
+}
+@media only screen and (min-height: 700px) and (max-height: 850px) and (min-width: 1500px)  {
+.form{margin-top:24px;} .forma{height: 87vh; top:11vh;} .complete{top: 5px;} 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -25,16 +30,18 @@ input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{w
   .image{width:100vw; height:60vh;} .screen{width:100vw; height:100vh; overflow: hidden;} .next{display: none;} .slick-arrow{display: none;} .arrow-prev, .arrow-next { display: none } .topmenu{width:100vw;}
 .footer{overflow:hidden;} .block{top:3vh;} .buy{top:-70px; left:60vw;} .price{top:-95px; left:60vw;} .description{width:15em;} .slick-list{height: 84vh;}
 .footer{top:100vh; display: flex; justify-content: space-evenly; flex-wrap: nowrap; align-items: center;} .contacts,.hse,.author{position: static;}
-input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{width:182px;} .form-split, .fo, .checkbox-list{width:400px;} .cross{left:42vw;}
-.big{margin-top:30px;} .forma{height: 60vh; width: 64vw; left: calc(50% - 32vw); top:20vh;} .complete{left:calc(32vw - 4.5em);} .cross{width:2vh; height:2vh; left:55vw;}
-.forma_after{width: 63vw; left: calc(50% - 32.5vw); height:19vh;}
+
+.big{font-size: 50px;} .rec{width:25px;} .line2{width:7080px; top:170px; animation-duration: 28s;}
+input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{width:182px;} .form-split, .fo, .checkbox-list, .check-list{width:400px;}
+.form{margin-top:30px;} .forma, .question{height: 60vh; width: 74vw; left: calc(50% - 37vw); top:20vh;} .complete, .continue{left:calc(37vw - 4.5em); top: 14px;} .cross{width:2vh; height:2vh; left:68vw;}
+.forma_after{width: 63vw; left: calc(50% - 32.5vw); height:20vh;} .list1, .list2{width: 230px;} .continue{top: 55px;} .question{height: 55vh;} .list{ position: relative; left: 15px;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad Landscape */
   .text,.normal,.button, .contacts, .cont, .author, .description, input[type="text"], input[type="email"], input[type="tel"], label,.put {font-size: 18px; line-height: 21px;}  .headline,.head{ font-size: 24px; line-height: 27px;}
-  .image{width:55vw;} .block{left:3vw;} .price{top:1.5em;} input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{width:182px;} .form-split, .fo, .checkbox-list{width:400px;} .cross{left:42vw;}
-
+  .image{width:55vw;} .block{left:3vw;} .price{top:1.5em;} input[type="text"], input[type="email"], input[type="tel"] {width:400px;} .put{width:182px;} .form-split, .fo, .checkbox-list{width:400px;} .cross{left:49vw;} .forma{width: 55vw; left: calc(50% - 27.5vw;)}
+.complete{left: calc( 27.5vw - 4.5em);}
 }
 
 
@@ -48,7 +55,7 @@ input[type="text"], input[type="email"], input[type="tel"] {width:340px; height:
 .big{margin-top:30px; font-size:45px;} .forma{height: 70vh; width: 99vw; left:0; top:20vh;} .complete{left:calc(50vw - 4.5em);} .cross{width:2vh; height:2vh; left:90vw;}
 .block{left:-7vw;} .footer{display:none;} .footer2{display: block; top:100vh; height:20vh;} .flex{display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; position: absolute; left:50vw; top:4vh;}
 .hse{width: 133px; height:60px; position: absolute; left:8vw; top:4vh;} .contacts,.author{position: static; margin-bottom: 15px;}
-.custom+label::before{height:2em; width:2em;} .forma_after{width:100vw; left:0;}
+.custom+label::before{height:2em; width:2em;} .forma_after{width:100vw; left:0;} .forma_after{width:100vw; left:0; height: 18vh; top: calc(50% - 9vh); padding:5px;}   .form{margin-top:24px; font-size:45px; width:398px;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
