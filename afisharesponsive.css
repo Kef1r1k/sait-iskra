@@ -2,7 +2,7 @@
   /* Desktop big */
     .home{ height: 80px; width: 80px; } .sidemenu{ height:55px; width: 55px; left: calc(100% - 200px);}
     .question {height:60vh; top:20vh;} .continue, .complete{top: 30px;} .forma{height: 85vh; top:12vh;} .form{margin-top:24px;} .radio-list{margin-left:150px;}
-    .forma{height:67vh; top:20vh;} .forma_after{height: 14.5vh;}
+    .forma{height:67vh; top:20vh;} .forma_after{height: 14.5vh;} .headline{width:45vw;}
   }
 
   @media only screen and (min-height: 700px) and (max-height: 950px) and (min-width: 1600px) {
@@ -11,7 +11,17 @@
     .home{ height: 58px; width: 58px; }
   }
 
-
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+      .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 125px);} .footer{display: none;}
+      .footer2{display: block; top:100vh; height:20vh;} .flex{display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; position: absolute; left:50vw; top:4vh;}
+      .hse{width: 133px; height:60px; position: absolute; left:8vw; top:4vh;} .contacts,.author{position: static; margin-bottom: 15px;}
+      .text,.normal,.button, .contacts, .cont, .author, .description, input[type="text"], input[type="email"], input[type="tel"], label,.put {font-size: 14px; line-height: 17px;}  .headline,.head{ font-size: 21px; line-height: 24px;}
+      .big {font-size: 28px; line-height: 30px;} .none{display:none;} .rec{width:30px; margin-left:0px; margin-right: 0px;}
+      .rectangles{margin-left:0px; margin-right: 0px;} .right{margin-right: 0px;} .left{margin-left:0px;} .image{width:86vw;}
+      .headline{width:83vw; margin-top:40px;} .a4{background-position: left;} .form{font-size: 45px;} .forma_after{width:100vw; left:0;} .register{top:2em;}
+      .forma, .question{height: 70vh; width: 99vw; left:0; top:20vh;}  input[type="text"], input[type="email"], input[type="tel"] {width:260px; height:40px;} .put{width:105px; height:40px;} .form-split, .fo, .checkbox-list{width:300px;}
+      .cross{width:2vh; height:2vh; left:90vw;} .radio-list{width:260px;} .continue,.complete{left: calc(50vw - 4.5em);} .question{height:63vh;}
+  }
 
 @media only screen and (min-height: 700px) and (max-height: 850px)  {
   .home{ height: 55px; width: 55px; }   .sidemenu{ height: 35px; width: 35px; left:calc(100% - 130px);}
@@ -45,17 +55,7 @@
   .headline{margin-top:10px;} .register{top:20px;} .question, .forma{height:70vh; width:46vw; top:12vh;} .continue, .complete{top: 10px;} .form{margin-top:24px;} .forma{height:85vh;}
   .fo{width: 330px;} .radio-list{width:340px; margin-top:18px;} .continue{left: calc(23vw - 4.5em);}
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-    .home{ height: 60px; width: 60px; left:8vw; } .sidemenu{ height:40px; width: 40px; left: calc(100% - 125px);} .footer{display: none;}
-    .footer2{display: block; top:100vh; height:20vh;} .flex{display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; position: absolute; left:50vw; top:4vh;}
-    .hse{width: 133px; height:60px; position: absolute; left:8vw; top:4vh;} .contacts,.author{position: static; margin-bottom: 15px;}
-    .text,.normal,.button, .contacts, .cont, .author, .description, input[type="text"], input[type="email"], input[type="tel"], label,.put {font-size: 14px; line-height: 17px;}  .headline,.head{ font-size: 21px; line-height: 24px;}
-    .big {font-size: 28px; line-height: 30px;} .none{display:none;} .rec{width:30px; margin-left:0px; margin-right: 0px;}
-    .rectangles{margin-left:0px; margin-right: 0px;} .right{margin-right: 0px;} .left{margin-left:0px;} .image{width:86vw;}
-    .headline{width:83vw; margin-top:40px;} .a4{background-position: left;} .form{font-size: 45px;} .forma_after{width:100vw; left:0;} .register{top:2em;}
-    .forma, .question{height: 70vh; width: 99vw; left:0; top:20vh;}  input[type="text"], input[type="email"], input[type="tel"] {width:260px; height:40px;} .put{width:105px; height:40px;} .form-split, .fo, .checkbox-list{width:300px;}
-    .cross{width:2vh; height:2vh; left:90vw;} .radio-list{width:260px;} .continue,.complete{left: calc(50vw - 4.5em);} .question{height:63vh;}
-}
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone Landscape */
