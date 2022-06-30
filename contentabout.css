@@ -175,6 +175,7 @@ background-size: contain;
 }
 .screen3{
   display: none;
+  overflow: hidden;
 }
 .v2{display: none;}
 

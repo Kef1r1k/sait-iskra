@@ -48,6 +48,7 @@ a {
   height:90vh;
   position: absolute;
   top: 10vh;
+  overflow: hidden;
 }
 
 .ticket{
