@@ -27,6 +27,11 @@ $(function(){
 		return false;
 	});
 });
+$(function(){
+  $(".back").click(function() {
+    window.history.back();
+  });
+});
 
 
 // $(function(){
